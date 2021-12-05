@@ -15,7 +15,9 @@ $assets-base: ".." !default;
 $google-font: 'Inter' !default;
 $google-font-monospaced: false !default;
 
-$font-family-sans-serif: $google-font, -apple-system, BlinkMacSystemFont, San Francisco, Segoe UI, Roboto, Helvetica Neue, sans-serif !default;
+// change font family for Japanese by naoki(2021/11/5)
+//$font-family-sans-serif: $google-font, -apple-system, BlinkMacSystemFont, San Francisco, Segoe UI, Roboto, Helvetica Neue, sans-serif !default;
+$font-family-sans-serif: "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", Hiragino Kaku Gothic Pro, "ＭＳ Ｐゴシック", sans-serif !default;
 $font-family-monospace: $google-font-monospaced, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
 $font-family-serif: "Georgia", "Times New Roman", times, serif !default;
 
