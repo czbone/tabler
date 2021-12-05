@@ -1,7 +1,7 @@
 <!doctype html>
 <!--
 * Tabler - Premium and Open Source dashboard template with responsive and high quality UI.
-* @version 1.0.0-beta4
+* @version 
 * @link https://tabler.io
 * Copyright 2018-2021 The Tabler Authors
 * Copyright 2018-2021 codecalm.net Paweł Kuna
@@ -20,7 +20,7 @@
     <link href="../dist/css/tabler-vendors.min.css" rel="stylesheet"/>
     <link href="../dist/css/demo.min.css" rel="stylesheet"/>
   </head>
-  <body class="antialiased">
+  <body class="">
     <div class="wrapper">
       <header class="navbar navbar-expand-md navbar-light d-print-none">
         <div class="container-xl">
@@ -658,7 +658,7 @@
                   <li class="nav-item">
                     <a href="../changelog.html" class="nav-link">
                       Changelog
-                      <span class="badge bg-blue-lt ms-auto">1.0.0-beta4</span>
+                      <span class="badge bg-blue-lt ms-auto"></span>
                     </a>
                   </li>
                 </ul>
@@ -682,6 +682,15 @@
                         <li><code class="language-plaintext highlighter-rouge">.cursor-not-allowed</code> - a cursor which shows that a user is not allowed to perform an action on an element</li>
                         <li><code class="language-plaintext highlighter-rouge">.cursor-zoom-in</code> - a cursor which shows that a user can zoom in</li>
                         <li><code class="language-plaintext highlighter-rouge">.cursor-zoom-out</code> - a cursor which shows that a user can zoom out</li>
+                        <li><code class="language-plaintext highlighter-rouge">.cursor-default</code> - the default cursor</li>
+                        <li><code class="language-plaintext highlighter-rouge">.cursor-none</code> - no cursor</li>
+                        <li><code class="language-plaintext highlighter-rouge">.cursor-help</code> - a cursor which shows that help information is available</li>
+                        <li><code class="language-plaintext highlighter-rouge">.cursor-progress</code> - a cursor which shows that an action is in progress</li>
+                        <li><code class="language-plaintext highlighter-rouge">.cursor-wait</code> - a cursor which shows that a user cannot interact with the element because it is busy</li>
+                        <li><code class="language-plaintext highlighter-rouge">.cursor-text</code> - a cursor which shows that a user can type</li>
+                        <li><code class="language-plaintext highlighter-rouge">.cursor-v-text</code> - a cursor which shows that a user can type in a vertical text input</li>
+                        <li><code class="language-plaintext highlighter-rouge">.cursor-grab</code> - a cursor which shows that a user can grab an element</li>
+                        <li><code class="language-plaintext highlighter-rouge">.cursor-grabbing</code> - a cursor which shows that a user is grabbing an element</li>
                       </ul>
                       <div class="example no_toc_section">
                         <div class="example-content">
@@ -695,14 +704,41 @@
                             <div class="col-4 mb-3">
                               <div class="cursor-move bg-light py-3">Cursor move</div>
                             </div>
-                            <div class="col-4">
+                            <div class="col-4 mb-3">
                               <div class="cursor-not-allowed bg-light py-3">Cursor not allowed</div>
                             </div>
-                            <div class="col-4">
+                            <div class="col-4 mb-3">
                               <div class="cursor-zoom-in bg-light py-3">Cursor zoom in</div>
                             </div>
-                            <div class="col-4">
+                            <div class="col-4 mb-3">
                               <div class="cursor-zoom-out bg-light py-3">Cursor zoom out</div>
+                            </div>
+                            <div class="col-4 mb-3">
+                              <div class="cursor-default bg-light py-3">Cursor default</div>
+                            </div>
+                            <div class="col-4 mb-3">
+                              <div class="cursor-none bg-light py-3">Cursor none</div>
+                            </div>
+                            <div class="col-4 mb-3">
+                              <div class="cursor-help bg-light py-3">Cursor help</div>
+                            </div>
+                            <div class="col-4 mb-3">
+                              <div class="cursor-progress bg-light py-3">Cursor progress</div>
+                            </div>
+                            <div class="col-4 mb-3">
+                              <div class="cursor-wait bg-light py-3">Cursor wait</div>
+                            </div>
+                            <div class="col-4 mb-3">
+                              <div class="cursor-text bg-light py-3">Cursor text</div>
+                            </div>
+                            <div class="col-4">
+                              <div class="cursor-v-text bg-light py-3">Cursor vertical text</div>
+                            </div>
+                            <div class="col-4">
+                              <div class="cursor-grab bg-light py-3">Cursor grab</div>
+                            </div>
+                            <div class="col-4">
+                              <div class="cursor-grabbing bg-light py-3">Cursor grabbing</div>
                             </div>
                           </div>
                         </div>
@@ -719,14 +755,41 @@
   <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-4 mb-3"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"cursor-move bg-light py-3"</span><span class="nt">&gt;</span>Cursor move<span class="nt">&lt;/div&gt;</span>
   <span class="nt">&lt;/div&gt;</span>
-  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-4"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-4 mb-3"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"cursor-not-allowed bg-light py-3"</span><span class="nt">&gt;</span>Cursor not allowed<span class="nt">&lt;/div&gt;</span>
   <span class="nt">&lt;/div&gt;</span>
-  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-4"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-4 mb-3"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"cursor-zoom-in bg-light py-3"</span><span class="nt">&gt;</span>Cursor zoom in<span class="nt">&lt;/div&gt;</span>
   <span class="nt">&lt;/div&gt;</span>
-  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-4"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-4 mb-3"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"cursor-zoom-out bg-light py-3"</span><span class="nt">&gt;</span>Cursor zoom out<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-4 mb-3"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"cursor-default bg-light py-3"</span><span class="nt">&gt;</span>Cursor default<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-4 mb-3"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"cursor-none bg-light py-3"</span><span class="nt">&gt;</span>Cursor none<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-4 mb-3"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"cursor-help bg-light py-3"</span><span class="nt">&gt;</span>Cursor help<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-4 mb-3"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"cursor-progress bg-light py-3"</span><span class="nt">&gt;</span>Cursor progress<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-4 mb-3"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"cursor-wait bg-light py-3"</span><span class="nt">&gt;</span>Cursor wait<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-4 mb-3"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"cursor-text bg-light py-3"</span><span class="nt">&gt;</span>Cursor text<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-4"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"cursor-v-text bg-light py-3"</span><span class="nt">&gt;</span>Cursor vertical text<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-4"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"cursor-grab bg-light py-3"</span><span class="nt">&gt;</span>Cursor grab<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-4"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"cursor-grabbing bg-light py-3"</span><span class="nt">&gt;</span>Cursor grabbing<span class="nt">&lt;/div&gt;</span>
   <span class="nt">&lt;/div&gt;</span>
 <span class="nt">&lt;/div&gt;</span></code></pre>
                         </figure>
@@ -763,7 +826,9 @@
                     All rights reserved.
                   </li>
                   <li class="list-inline-item">
-                    <a href="../changelog.html" class="link-secondary" rel="noopener">v1.0.0-beta4</a>
+                    <a href="../changelog.html" class="link-secondary" rel="noopener">
+                      v
+                    </a>
                   </li>
                 </ul>
               </div>
